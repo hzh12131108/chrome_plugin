@@ -1,0 +1,15 @@
+{
+    "name":"WHU_GPAcal",
+    "description":"武汉大学教务系统GPA计算",
+    "version":"1.0.0",
+    
+    "content_scripts": [
+        {
+          "matches": ["https://jwgl.whu.edu.cn/cjcx/*"],
+          "js": ["main.js"],
+          "run_at": "document_start"
+        }
+    ],
+    "manifest_version":2
+}
+    
